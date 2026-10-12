@@ -20,23 +20,35 @@
 
 ### 🎨 Frontend
 
-**React • TypeScript • Vite • Tailwind CSS**
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=react,ts,vite,tailwind&perline=4" alt="React, TypeScript, Vite, and Tailwind CSS"/>
+</p>
 
-### ✨ Interaction and Motion
+<p align="center">
+  <b>React</b> • <b>TypeScript</b> • <b>Vite</b> • <b>Tailwind CSS</b>
+</p>
 
-**Framer Motion • Lenis • Lucide React**
+### 🧩 Frameworks & Libraries
 
-Framer Motion supports transitions and interactions. Lenis provides smooth scrolling when reduced motion is not requested.
+<p align="center">
+  <img src="https://cdn.simpleicons.org/framer/0055FF" width="45" alt="Framer Motion"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/lucide/F56565" width="45" alt="Lucide"/>
+</p>
 
-### 🧰 Development and Version Control
+<p align="center">
+  <b>Framer Motion</b> • <b>Lenis</b> • <b>Lucide React</b>
+</p>
 
-**Git • GitHub**
+### 🧰 Development & Version Control
 
-### 📬 Optional Email Delivery
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=git,github&perline=2" alt="Git and GitHub"/>
+</p>
 
-**Netlify Functions • Resend • Upstash Redis**
-
-The contact and rating forms use server-side email delivery **only after these services and their environment variables are configured**. Without that setup, the direct email link remains available.
+<p align="center">
+  <b>Git</b> • <b>GitHub</b>
+</p>
 
 ---
 
@@ -46,171 +58,7 @@ The contact and rating forms use server-side email delivery **only after these s
 
 
 
-## 🔄 Website Journey
 
-```text
-Visitor opens RC25
-        │
-        ▼
-Home — identity and portrait
-        │
-        ▼
-About — background and approach
-        │
-        ▼
-Journey — education and milestones
-        │
-        ▼
-Skills — interactive categories
-        │
-        ▼
-Projects — carousel and detailed views
-        │
-        ▼
-Credentials — certificate previews
-        │
-        ▼
-Gallery — images and full-screen viewer
-        │
-        ▼
-Currently Exploring
-        │
-        ▼
-Resume — view and download
-        │
-        ▼
-Contact — email and professional links
-```
-
----
-
-## 👨‍💻 About Me
-
-I'm **Chadarasipalli Ramcharan**, a Computer Science and Engineering student at **Sir Padampat Singhania University, Udaipur**, specializing in Artificial Intelligence and Machine Learning.
-
-I work across machine learning, data analysis, and full-stack development. This portfolio is a place to present the systems I build, the technologies I use, and the skills I continue to develop.
-
-> **Crafting with code, guided by spirit — I believe purpose fuels innovation.**
-
----
-
-## 📂 Selected Projects
-
-The Projects section includes a carousel and an **Explore Project** view. GitHub and Live Demo buttons appear where URLs are available in `src/data/projects.ts`.
-
-### DataForge
-
-A Python and Streamlit dashboard for uploading and examining datasets, including profiling, quality checks, statistics, and visualizations.
-
-### Smart Exam Pro
-
-An online examination platform with administrator and student workflows, exam management, timed attempts, and automatic result evaluation.
-
-### Nexora Ascension
-
-A student-focused digital discovery platform organizing AI tools, learning resources, developer platforms, roadmaps, and career resources.
-
-### Net Shield ML
-
-An **educational prototype** for exploring network-traffic classification using synthetic data and a Random Forest model. It is not a production intrusion-prevention system.
-
-### AcadNexus Pro
-
-A role-based university academic management platform for academic information, assignments, submissions, resources, and related workflows.
-
-### TimeTrix Pro
-
-A university timetable project centered on academic scheduling constraints and separate administrator, teacher, and student views.
-
-### My Portfolio 1
-
-An earlier version of my personal portfolio, presenting my background, skills, projects, certificates, gallery, and contact information.
-
-### Loop Break
-
-The public repository has not yet published a README or source files. Its features and technology are intentionally **not claimed** until they can be documented.
-
-> Project descriptions, technologies, and URLs are maintained in `src/data/projects.ts`. Update entries when the corresponding repository or application changes.
-
----
-
-## 🧾 Credentials
-
-The Credentials section presents certificate details and image previews. Visitors can click a preview to see the certificate at a larger size.
-
-The current entries cover:
-
-* MicroPython for Beginners — NIELIT Calicut
-* Machine Learning Summer Training — Growth Ninja in association with Avenues, IIT Bombay
-* Data Science for Everyone — Reliance Foundation Skilling Academy via Skill India Digital Hub
-
-Certificate information and image paths are maintained in:
-
-```text
-src/data/certifications.ts
-```
-
-To use locally stored certificate images, place the files in:
-
-```text
-public/images/certificates/
-```
-
-Use the filenames and extensions specified by each entry’s `image` path. Do not rename a `.jpeg` file to `.jpg` without updating that path.
-
----
-
-## 🖼️ Gallery
-
-The Gallery provides an image grid with a full-screen viewer.
-
-Images and captions are maintained in:
-
-```text
-src/data/gallery.ts
-```
-
-Local gallery images belong in:
-
-```text
-public/images/gallery/
-```
-
-Some existing visuals are illustrative or AI-generated and are labeled accordingly. A generated or stock image should not be described as a photograph of my participation in an actual event.
-
----
-
-## 📄 Resume
-
-Place my actual resume file in the project’s `public/` folder using **one** of these names:
-
-```text
-public/resume.pdf
-public/resume.jpg
-public/resume.jpeg
-```
-
-The website displays the file in its **View Resume** viewer. **Download** saves that same file. If more than one format is present, the PDF takes priority.
-
-The viewer does **not** generate a substitute resume from `src/data/resume.ts`. The visitor-facing resume is the file placed in `public/`.
-
----
-
-## ☎️ Contact
-
-**Email:** ch.charan2006@gmail.com
-
-**GitHub:** https://github.com/Chadarasipalli-Ramcharan
-
-Other professional links can be updated in:
-
-```text
-src/data/socials.ts
-```
-
-The direct email link opens the visitor's email application. Automatic delivery from the contact and rating forms requires the Netlify server-side setup described below.
-
----
 
 ## ⚙️ Run Locally
 
@@ -256,87 +104,7 @@ npm.cmd run build
 
 ---
 
-## 📬 Configure Contact and Rating Email
 
-The server-side function is located at:
-
-```text
-netlify/functions/message.mjs
-```
-
-It sends contact messages and voluntarily submitted ratings through Resend. Upstash Redis provides rate limiting and duplicate-submission protection.
-
-Configure these **server-side environment variables** in your Netlify site settings:
-
-```text
-RESEND_API_KEY
-RESEND_FROM_EMAIL
-PORTFOLIO_TO_EMAIL
-UPSTASH_REDIS_REST_URL
-UPSTASH_REDIS_REST_TOKEN
-```
-
-Set `PORTFOLIO_TO_EMAIL` to:
-
-```text
-ch.charan2006@gmail.com
-```
-
-`RESEND_FROM_EMAIL` must use a sending domain verified in Resend. Keep API keys and tokens out of `src/`, GitHub, and variables prefixed with `VITE_`.
-
-> Without these credentials, the forms cannot automatically deliver email. The site should not be considered email-ready until a real message and rating have been tested on the configured deployment.
-
----
-
-## 🚀 Deploy to Netlify
-
-1. Push the **complete project** to GitHub, including `src/`, `public/`, `package.json`, and `netlify/functions/message.mjs`.
-2. In Netlify, choose **Add new project → Import an existing project → GitHub**.
-3. Select the portfolio repository.
-4. Use these build settings:
-
-```text
-Build command:      npm run build
-Publish directory:  dist
-```
-
-5. Deploy and wait for the status to show **Published**.
-6. Add the email environment variables if you want contact and rating submissions delivered.
-7. Redeploy after changing environment variables.
-8. Test portraits, projects, certificates, gallery, resume, and contact functionality on the live URL.
-
-Do **not** upload only `dist/` if you need the Netlify email function.
-
----
-
-## 🗂️ Updating the Portfolio
-
-Most content is maintained separately from the UI:
-
-| File | What it controls |
-| --- | --- |
-| `src/data/personal.ts` | Identity, biography, education, email, portraits |
-| `src/data/socials.ts` | Social profiles |
-| `src/data/projects.ts` | Project details, images, GitHub and demo links |
-| `src/data/certifications.ts` | Certificate details and image paths |
-| `src/data/gallery.ts` | Gallery images and captions |
-| `src/data/journey.ts` | Timeline milestones |
-| `src/data/skills.ts` | Skill categories |
-| `src/data/exploring.ts` | Current learning interests |
-| `public/resume.pdf` or `public/resume.jpg` | Actual resume visitors view and download |
-
-To publish an update:
-
-```bash
-npm run build
-git add .
-git commit -m "Update portfolio"
-git push origin main
-```
-
-A Git-connected Netlify site will build the new version and keep the same live URL.
-
----
 
 ## 👨‍💻 Developer
 
