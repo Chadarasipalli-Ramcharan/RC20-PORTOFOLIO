@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Primary SEO -->
+    <title>Chadarasipalli Ramcharan — AI &amp; ML Engineer</title>
+    <meta
+      name="description"
+      content="Chadarasipalli Ramcharan — AI & Machine Learning Engineer building intelligent systems, data pipelines and full-stack digital products."
+    />
+    <meta name="author" content="Chadarasipalli Ramcharan" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Chadarasipalli Ramcharan — AI &amp; ML Engineer" />
+    <meta
+      property="og:description"
+      content="Building intelligent systems, data pipelines and full-stack digital products."
+    />
+    <meta property="og:image" content="/images/projects/nexora.jpg" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Chadarasipalli Ramcharan — AI &amp; ML Engineer" />
+    <meta
+      name="twitter:description"
+      content="Building intelligent systems, data pipelines and full-stack digital products."
+    />
+    <meta name="twitter:image" content="/images/projects/nexora.jpg" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Theme color (updated by theme system) -->
+    <meta name="theme-color" content="#090a0f" />
+
+    <!-- Avoid theme flash: resolve stored / system preference before paint -->
+    <script>
+      (function () {
+        try {
+          var stored = localStorage.getItem('cr-theme');
+          var theme = stored || (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+          document.documentElement.setAttribute('data-theme', theme);
+        } catch (e) {
+          document.documentElement.setAttribute('data-theme', 'dark');
+        }
+      })();
+    </script>
+
+    <!-- Typography: Playfair Display (editorial serif) · Inter (supporting sans). Two fonts only. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..700;1,400..600&family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
